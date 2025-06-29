@@ -1,0 +1,215 @@
+body {
+  background-color: lightblue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+header {
+  background-color: #f7f7f7;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+header nav a:hover {
+  color: #337ab7;
+}
+#hero {
+  background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#hero button {
+  background-color: darkred;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#hero button:hover {
+  background-color: #23527c;
+}
+#about {
+  padding: 2em;
+}
+
+#about h2 {
+  margin-top: 0;
+}
+
+#about p {
+  margin-bottom: 20px;
+}
+
+#about img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+#research {
+  padding: 2em;
+  background-color: #f7f7f7;
+}
+
+#research h2 {
+  margin-top: 0;
+}
+
+#research p {
+  margin-bottom: 20px;
+}
+
+#research .research-highlights {
+  margin-top: 20px;
+}
+
+#research .research-highlights h3 {
+  margin-top: 0;
+}
+
+#research .research-highlights ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#research .research-highlights li {
+  margin-bottom: 10px;
+}
+#benefits {
+  padding: 2em;
+}
+
+#benefits h2 {
+  margin-top: 0;
+}
+
+#benefits {
+  margin-bottom: 20px;
+}
+
+#conservation .conservation-projects {
+  margin-top: 20px;
+}
+
+#conservation .conservation-projects h3 {
+  margin-top: 0;
+}
+
+#conservation .conservation-projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#conservation .conservation-projects li {
+  margin-bottom: 10px;
+}
+#contact {
+  padding: 2em;
+  background-color: #f7f7f7;
+}
+
+#contact h2 {
+  margin-top: 0;
+}
+
+#contact p {
+  margin-bottom: 20px;
+}
+
+#contact form {
+  margin-top: 20px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #23527c;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #fff;
+}
